@@ -18828,7 +18828,7 @@ const Layout = () => {
   ] });
 };
 
-const LazyMicroFront1Page = reactExports.lazy(() => __vitePreload(() => import('./MicroFront1Page-C0yhSUER.js'),true?[]:void 0));
+const LazyMicroFront1Page = reactExports.lazy(() => __vitePreload(() => import('./MicroFront1Page-pN9oIYKI.js'),true?[]:void 0));
 const getRoutes = () => {
   return /* @__PURE__ */ jsxRuntimeExports.jsxs(Route, { path: "/", element: /* @__PURE__ */ jsxRuntimeExports.jsx(Layout, {}), children: [
     /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { index: true, element: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { children: "HOME PAGE" }) }),
@@ -18839,7 +18839,7 @@ const getRoutes = () => {
 };
 
 const App = () => {
-  return /* @__PURE__ */ jsxRuntimeExports.jsx(BrowserRouter, { children: /* @__PURE__ */ jsxRuntimeExports.jsx(Routes, { children: getRoutes() }) });
+  return /* @__PURE__ */ jsxRuntimeExports.jsx(BrowserRouter, { basename: "/vite-host-app-example", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Routes, { children: getRoutes() }) });
 };
 
 clientExports.createRoot(document.getElementById("root")).render(

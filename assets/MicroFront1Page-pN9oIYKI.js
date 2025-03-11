@@ -1,4 +1,4 @@
-import { j as jsxRuntimeExports } from './index-CGkYwrwg.js';
+import { j as jsxRuntimeExports } from './index-B-VU_V1_.js';
 
 const remotesMap = {
 'micro1':{url:'http://localhost:4173/assets/remoteEntry.js',format:'esm',from:'vite'}
