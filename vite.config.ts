@@ -10,7 +10,7 @@ export default defineConfig({
         federation({
             name: 'host-app',
             remotes: {
-                micro1: 'http://localhost:4173/assets/remoteEntry.js',
+                micro1: 'https://alexmi5.github.io/vite-micro-app-example/assets/remoteEntry.js',
             },
             // shared: ['react'],
         }),
