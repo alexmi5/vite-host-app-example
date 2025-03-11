@@ -18828,7 +18828,7 @@ const Layout = () => {
   ] });
 };
 
-const LazyMicroFront1Page = reactExports.lazy(() => __vitePreload(() => import('./MicroFront1Page-pN9oIYKI.js'),true?[]:void 0));
+const LazyMicroFront1Page = reactExports.lazy(() => __vitePreload(() => import('./MicroFront1Page-B5zDfRFX.js'),true?[]:void 0));
 const getRoutes = () => {
   return /* @__PURE__ */ jsxRuntimeExports.jsxs(Route, { path: "/", element: /* @__PURE__ */ jsxRuntimeExports.jsx(Layout, {}), children: [
     /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { index: true, element: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { children: "HOME PAGE" }) }),

@@ -1,7 +1,7 @@
-import { j as jsxRuntimeExports } from './index-B-VU_V1_.js';
+import { j as jsxRuntimeExports } from './index-D2rLRtL5.js';
 
 const remotesMap = {
-'micro1':{url:'http://localhost:4173/assets/remoteEntry.js',format:'esm',from:'vite'}
+'micro1':{url:'https://alexmi5.github.io/vite-micro-app-example/assets/remoteEntry.js',format:'esm',from:'vite'}
 };
                 
                 function merge(obj1, obj2) {
