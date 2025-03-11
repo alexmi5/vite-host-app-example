@@ -3,7 +3,7 @@ import {getRoutes} from './app/routes.tsx';
 
 export const App = () => {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/vite-host-app-example">
             <Routes>{getRoutes()}</Routes>
         </BrowserRouter>
     );

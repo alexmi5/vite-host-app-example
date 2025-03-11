@@ -5,8 +5,6 @@ import {lazy, Suspense} from 'react';
 const LazyMicroFront1Page = lazy(() => import('../pages/MicroFront1Page.tsx'));
 
 export const getRoutes = () => {
-    
-    
     return (
         <Route path="/" element={<Layout />}>
             <Route index element={<div>HOME PAGE</div>} />
