@@ -1,5 +1,5 @@
 // @ts-ignore
-import App from 'todo_components/App';
+import App from 'micro1/App';
 
 const MicroFront1Page = () => {
     return (

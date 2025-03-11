@@ -12,7 +12,7 @@ export default defineConfig({
             remotes: {
                 micro1: 'http://localhost:4173/assets/remoteEntry.js',
             },
-            shared: ['react'],
+            // shared: ['react'],
         }),
     ],
     build: {
@@ -20,5 +20,8 @@ export default defineConfig({
         target: 'esnext',
         minify: false,
         cssCodeSplit: false,
+        rollupOptions: {
+            external: ['micro1/App']
+        }
     },
 })
